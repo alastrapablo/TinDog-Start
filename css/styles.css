@@ -82,7 +82,7 @@ p {
     margin-bottom: 1rem;
 }
 
-.icon:hover {
+.icon:hover{
     color: #ff4c68;
     transition: 0.5s;
 }
@@ -99,10 +99,18 @@ p {
     margin: 20px;
 }
 
+.testimonils-item{
+    padding: 7% 15%;
+}
+
+#testimonials-carousel{
+    padding: 7% 15%;
+    text-align: center;
+}
+
 #testimonials {
     background-color: #ef8172;
     color: #fff;
-    padding: 7% 15%;
     text-align: center;
 }
 
