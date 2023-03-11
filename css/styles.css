@@ -36,6 +36,19 @@ p {
     padding: 7% 15%;
 }
 
+/* Sections */
+
+.color-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+
 /* Navegation Bar */
 
 .navbar {
@@ -60,12 +73,6 @@ p {
 
 /* Title img */
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-
-}
-
 .title-img {
     width: 20%;
     transform: rotate(25deg);
@@ -75,6 +82,7 @@ p {
 
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Download Buttons */
@@ -103,12 +111,17 @@ p {
 }
 
 #features {
-    background-color: #fff;
     position: relative;
     z-index: 1;
 }
 
 /* Testimonials */
+
+
+#testimonials {
+    background-color: #ef8172;
+}
+
 .testimonials-text {
     font-size: 3rem;
     line-height: 1.5;
@@ -120,11 +133,6 @@ p {
     margin: 20px;
 }
 
-#testimonials {
-    background-color: #ef8172;
-    color: #fff;
-}
-
 .press-logo {
     width: 15%;
     padding: 20px 20px 50px;
@@ -132,7 +140,6 @@ p {
 
 #press {
     background-color: #ef8172;
-    color: #fff;
     padding-bottom: 3%;
 }
 
@@ -153,19 +160,16 @@ p {
 
 /* Call to Action */
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
 /* Footer */
 
 .footer-icon {
     margin: 20px 10px;
 }
 
-@media (max-width:1028px) {
-    #title {}
+@media (max-width:1000px) {
+    #title .container-fluid {
+        text-align: center;
+    }
 
     .title-img {
         position: static;
