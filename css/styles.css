@@ -68,7 +68,6 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat";
-    font-weight: lighter;
 }
 
 /* Title img */
@@ -176,6 +175,4 @@ p {
         width: 50%;
         transform: rotate(0);
     }
-
-
 }
